@@ -2,18 +2,18 @@
   "name": "cylon-mip",
   "version": "0.1.0",
   "main": "lib/cylon-mip.js",
-  "description": "Cylon module for Mip",
+  "description": "Cylon module for MIP",
   "homepage": "http://cylonjs.com",
-  "bugs": "Your bug report URL here",
+  "bugs": "https://github.com/hybridgroup/cylon-mip/issues",
 
-  "author": "Your Name Here <your@email.here> (your.url.here)",
+  "author": "The Hybrid Group <cylonjs@hybridgroup.com>",
 
   "repository": {
     "type": "git",
-    "url": "your git URL here"
+    "url": "https://github.com/hybridgroup/cylon-mip"
   },
 
-  "license": "your license type here",
+  "license": "Apache 2.0",
 
   "devDependencies": {
     "sinon-chai": "2.5.0",
@@ -24,10 +24,12 @@
   },
 
   "peerDependencies": {
-    "cylon": ">=0.18.0 < 1"
+    "cylon": ">=0.20.0 < 1",
+    "cylon-ble": ">=0.1.0 < 1"
   },
 
   "dependencies": {
-    "cylon": "~0.18.0"
+    "cylon": "~0.20.0",
+    "cylon-ble": ">=0.1.0 < 1"
   }
 }
