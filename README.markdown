@@ -2,7 +2,7 @@
 
 Cylon.js (http://cylonjs.com) is a JavaScript framework for robotics and physical computing using Node.js
 
-This repository contains the Cylon adaptor for the MiP robot from Wowwee.
+This repository contains the Cylon adaptor for the MiP robot from Wowwee (http://www.wowwee.com/mip/).
 
 For more information about Cylon, check out the repo at
 https://github.com/hybridgroup/cylon
@@ -35,7 +35,9 @@ Cylon.robot({
 
 ## Connecting
 
-Explain how to connect from the computer to the device here...
+You need to determine the `uuid` of your MiP. One way to do this, is to use the `cylon-ble-scan` command line utility installed as part of [cylon-ble](https://github.com/hybridgroup/cylon-ble).
+
+Once you know your `uuid` just substititute it into your code.
 
 ## Contributing
 
