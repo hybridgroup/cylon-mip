@@ -17,8 +17,8 @@ Install the module with: `npm install cylon-mip`
 var Cylon = require('cylon');
 
 Cylon.robot({
-  connection: { name: 'bluetooth', adaptor: 'central', uuid: 'd03972a24e55', module: 'cylon-ble'},
-  devices: [{name: 'mip', driver: 'mip'}],
+  connections: { bluetooth: {adaptor: 'central', uuid: 'd03972a24e55', module: 'cylon-ble'}},
+  devices: {mip: {driver: 'mip'}},
 
   work: function(my) {
     my.mip.setHeadLED(2, 2, 2, 2);
