@@ -55,7 +55,7 @@ Once you know your `uuid` just substititute it into your code.
 
 ## Release History
 
-None yet...
+Version 0.1.0 - Initial release
 
 ## License
 
