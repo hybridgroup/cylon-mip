@@ -13,7 +13,7 @@ Cylon.robot({
     my.mip.setHeadLED(2, 2, 2, 2);
 
     after((2).seconds(), function() {
-      my.mip.distanceDrive(0, 10, 0, 0);
+      my.mip.driveDistance(0, 10, 0, 0);
     });
 
     after((3).seconds(), function() {
