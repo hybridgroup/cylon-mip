@@ -7,11 +7,11 @@ This repository contains the Cylon adaptor for the MiP robot from Wowwee (http:/
 For more information about Cylon, check out the repo at
 https://github.com/hybridgroup/cylon
 
-## Getting Started
+## How to Install
 
-Install the module with: `npm install cylon-mip`
+    $ npm install cylon-mip
 
-## Example
+## How to Use
 
 ```javascript
 var Cylon = require('cylon');
@@ -30,13 +30,20 @@ Cylon.robot({
     });
   }
 }).start();
+
 ```
 
-## Connecting
+## How to Connect
 
 You need to determine the `uuid` of your MiP. One way to do this, is to use the `cylon-ble-scan` command line utility installed as part of [cylon-ble](https://github.com/hybridgroup/cylon-ble).
 
 Once you know your `uuid` just substititute it into your code.
+
+## Documentation
+
+We're busy adding documentation to [cylonjs.com](http://cylonjs.com). Please check there as we continue to work on Cylon.js.
+
+Thank you!
 
 ## Contributing
 
