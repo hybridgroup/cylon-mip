@@ -1,12 +1,14 @@
-var Cylon = require('cylon');
+"use strict";
+
+var Cylon = require("cylon");
 
 Cylon.robot({
   connections: {
-    bluetooth: { adaptor: 'central', uuid: 'd03972a24e55', module: 'cylon-ble' }
+    bluetooth: { adaptor: "central", uuid: "d03972a24e55", module: "cylon-ble" }
   },
 
   devices: {
-    mip: { driver: 'mip' }
+    mip: { driver: "mip" }
   },
 
   work: function(my) {
