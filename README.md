@@ -9,7 +9,7 @@ https://github.com/hybridgroup/cylon
 
 ## How to Install
 
-    $ npm install cylon-mip
+    $ npm install cylon cylon-mip
 
 ## How to Use
 
