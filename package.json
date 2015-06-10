@@ -13,7 +13,23 @@
     "url": "https://github.com/hybridgroup/cylon-mip"
   },
 
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
+
+  "keywords": [
+    "cylon",
+    "cylonjs",
+    "cylons",
+    "robot",
+    "robots",
+    "robotics",
+    "iot",
+    "hardware",
+    "mip",
+    "wowwee",
+    "bluetooth"
+    "bluetooth le",
+    "ble"
+  ],
 
   "devDependencies": {
     "sinon-chai": "2.5.0",
