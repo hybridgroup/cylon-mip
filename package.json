@@ -26,7 +26,7 @@
     "hardware",
     "mip",
     "wowwee",
-    "bluetooth"
+    "bluetooth",
     "bluetooth le",
     "ble"
   ],
@@ -36,7 +36,7 @@
     "chai":       "1.9.1",
     "mocha":      "1.18.2",
     "sinon":      "1.9.1",
-    "jshint":     "2.5.0"
+    "eslint":     "0.22.1"
   },
 
   "dependencies": {

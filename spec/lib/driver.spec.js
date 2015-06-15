@@ -1,6 +1,6 @@
 "use strict";
 
-var MIP = source("driver");
+var MIP = lib("driver");
 
 describe("Cylon.Drivers.MIP", function() {
   var driver = new MIP({
