@@ -1,7 +1,6 @@
 {
   "name": "cylon-mip",
   "version": "0.3.0",
-  "main": "lib/cylon-mip.js",
   "description": "Cylon module for MIP",
   "homepage": "http://cylonjs.com",
   "bugs": "https://github.com/hybridgroup/cylon-mip/issues",

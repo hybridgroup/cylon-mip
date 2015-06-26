@@ -1,6 +1,6 @@
 "use strict";
 
-var mip = lib("cylon-mip");
+var mip = lib("../");
 
 var Driver = lib("driver");
 
