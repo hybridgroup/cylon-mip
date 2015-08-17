@@ -40,6 +40,6 @@
 
   "dependencies": {
     "cylon": "~1.1.0",
-    "cylon-ble": "~0.6.0"
+    "cylon-ble": "~0.7.1"
   }
 }
