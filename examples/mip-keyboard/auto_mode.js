@@ -4,23 +4,19 @@ var Cylon = require("cylon");
 
 Cylon.robot({
   connections: {
-    bluetooth: { adaptor: "central", uuid: "78a50449e7d9", module: "cylon-ble" }, 
+    bluetooth: { adaptor: "central", uuid: "78a50449e7d9", module: "cylon-ble" },
     keyboard: { adaptor: "keyboard" }
   },
 
   devices: {
-    
-    keyboard: { driver: "keyboard", connection : "keyboard" },
+    keyboard: { driver: "keyboard", connection: "keyboard" },
     mip: { driver: "mip" }
   },
 
   work: function(my) {
     console.log("Setting up the MIP");
-    my.mip.setChestLED(0,1,0);
-    
+    my.mip.setChestLED(0, 1, 0);
     console.log("All set");
-    
-
     after((2).seconds(), function() {
       my.mip.driveDistance(0, 25, 0, 0, function() {
         console.log("Moved front!");
@@ -42,7 +38,7 @@ Cylon.robot({
       });
     });
     after((10.1).seconds(), function() {
-      my.mip.driveDistance(0, 25, 0, 0, function(){
+      my.mip.driveDistance(0, 25, 0, 0, function() {
         console.log("Moved front!");
       });
     });
@@ -56,10 +52,9 @@ Cylon.robot({
         console.log("Moved front!");
       });
     });
-
     my.keyboard.on("return", function() {
       my.mip.stop(function() {
-        console.log("Emergency brake");  
+        console.log("Emergency brake");
       });
     });
   }
